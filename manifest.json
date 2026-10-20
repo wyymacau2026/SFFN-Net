@@ -1,0 +1,691 @@
+{
+  "scope": "Private current-source snapshot and two seed42 inference-only best weights",
+  "not_anonymized_or_publication_certified": true,
+  "excluded": [
+    "datasets",
+    "predictions",
+    "softmax NPZ",
+    "metric/statistics files",
+    "training curves",
+    "optimizer states",
+    "other seeds/checkpoints"
+  ],
+  "files": [
+    {
+      "archive_path": "code/unetr_pp/__init__.py",
+      "sha256": "0eb88724484edda608297c1730a925746bdf4630ca1bed6325da6abf3278eb2f"
+    },
+    {
+      "archive_path": "code/unetr_pp/configuration.py",
+      "sha256": "1f9bfb7542ecd1af514a9a89895cd6ffbb89e4ca8e0279914d67ec69136e2ff4"
+    },
+    {
+      "archive_path": "code/unetr_pp/inference_acdc.py",
+      "sha256": "ac9600652ee1eac04082389f507d25629ceef94a67c99d9ea0790c7c38cf5277"
+    },
+    {
+      "archive_path": "code/unetr_pp/inference_synapse.py",
+      "sha256": "0839a21f875c458266689280638a1dc1b2d0114d1d833ff85d0c8d490e58d46b"
+    },
+    {
+      "archive_path": "code/unetr_pp/inference_tumor.py",
+      "sha256": "6df28de3a69a3ccc51b93a470929d501e7494bfa072d08307d3dad64a73e82d0"
+    },
+    {
+      "archive_path": "code/unetr_pp/paths.py",
+      "sha256": "b8016190aeb0ec7ffecafbe4cfd34718cd168e65597320a2e9996b7ecfd57c3a"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/add_dummy_task_with_mean_over_all_tasks.py",
+      "sha256": "6be092e5492b73a6b42112cb13c5ea3dce3c099b40db677253fa60673887dfaa"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/add_mean_dice_to_json.py",
+      "sha256": "38613ee33adf981726355cba8fa94b38aa15b1c0cebe38007f27b80bcb7b36ec"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/collect_results_files.py",
+      "sha256": "d59c627aa921df4a2c0eec2bcb1139e7394b2aa7d9aaf85b42c548e0e6e653e3"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/evaluator.py",
+      "sha256": "9ac6c0d8bd27cba034c6fcb6594ada9bc5d667b6950e3e090b9c9bc6ad884169"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/metrics.py",
+      "sha256": "ce5e337106c683ed29caa59164c6431a10e4811d08b444b7d455309048a18321"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/region_based_evaluation.py",
+      "sha256": "0c9bac0825d5197dd27e9bfbac6915d578566124bec63d88148fcd9a5edd0a83"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/surface_dice.py",
+      "sha256": "d0e59bda510469d95f2e8b45a6a9e88f771c7ac44bd1e11a59c79b2a0322ceb1"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/model_selection/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/model_selection/collect_all_fold0_results_and_summarize_in_one_csv.py",
+      "sha256": "945091b6cbace8b5ba926233dde06321ae057fc5566659b3dcdebb2787a27aaf"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/model_selection/ensemble.py",
+      "sha256": "03a881c2d4406492d7d1601936d6369a743ddca91c1b9388c15acce06722a9ee"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/model_selection/figure_out_what_to_submit.py",
+      "sha256": "2ed9383c9ae62403b8a5a35dce83e23631078ea4a5c6999ba46b686516edc624"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/model_selection/rank_candidates.py",
+      "sha256": "d040dfab3bc385c8ee22ffeeab96b674d8213065de3156781c1cd9025a7cc9e2"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/model_selection/rank_candidates_StructSeg.py",
+      "sha256": "fa1a916ec2312eca7164e88a751e525a0464d6e0ab5d5a44bae1362b3112dae8"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/model_selection/rank_candidates_cascade.py",
+      "sha256": "a9221525f591dbde55cc07b8646c167c797f8caaa3f23ca3545ba4408893219d"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/model_selection/summarize_results_in_one_json.py",
+      "sha256": "42cccab58149d353363d9aedf4647a7a5ca3352c37a4a7f69a6b1dc4e60b493c"
+    },
+    {
+      "archive_path": "code/unetr_pp/evaluation/model_selection/summarize_results_with_plans.py",
+      "sha256": "fe2f490e7c14538cf783c132a54e14241356a31d55c4adce3204dfa063842df1"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/DatasetAnalyzer.py",
+      "sha256": "d5e866c4b967cb0205bc7021fdddb75f4f81aeaa3e217c407c45e9b4a007063b"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/change_batch_size.py",
+      "sha256": "64e955d4a0ebe6f19cfb5b5d094fb6472cc5b13614560882c857d227634a50f0"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/common_utils.py",
+      "sha256": "0d0e80e81c4cf98c6b2a448e5da548374f7e7326d50aa315dafd85aa91e46120"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/experiment_planner_baseline_2DUNet.py",
+      "sha256": "66bd2a7f25652ebd96e1c4d3da7ae7ff0637c49219ad208a3d4b87fa362ad122"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/experiment_planner_baseline_2DUNet_v21.py",
+      "sha256": "0e26a83dc517dd4f2d619affe8833d172046acb0d0e306f9734808d0e58e21e2"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/experiment_planner_baseline_3DUNet.py",
+      "sha256": "4687e04a4adf9fc7361860fcdbe0175cd2122a366da655b321e378aca814558c"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/experiment_planner_baseline_3DUNet_v21.py",
+      "sha256": "6d7ce314af264672518d31c4bdc7e20f1d428f961d2372ca62845f10b127b114"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/nnFormer_convert_decathlon_task.py",
+      "sha256": "ced2b91087477785bc33919b8c880eaf12ba125fa051a93fdc4d419ecf2b4f03"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/nnFormer_plan_and_preprocess.py",
+      "sha256": "f8407c436b24b60f3b9209d522a78ac1f204536d8d3fcf7db8e39a7bd3bbcc56"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/summarize_plans.py",
+      "sha256": "c2ba4f216508892123e7d2fbc98b4a642c9e9a5b94c8b1de26d71c9a55efabd1"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/utils.py",
+      "sha256": "29656d0b366ab0a9273bb8ba66ab468acc0641352447530ae37e8bfebcf98995"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/experiment_planner_baseline_3DUNet_v21_11GB.py",
+      "sha256": "70a13b6a8027df83df0d895d1cdc3b8f933bc4368987a837275e40e4fc80df8b"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/experiment_planner_baseline_3DUNet_v21_16GB.py",
+      "sha256": "3f65f04b4472145e90b7c44c8b346e4804fdbfc443424dbc5dc6a3238bf1d864"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/experiment_planner_baseline_3DUNet_v21_32GB.py",
+      "sha256": "dc29dc537c0d64150056be5a1b50fe29e51d046f4f4bca89f61175b4c9f7dcd2"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/experiment_planner_baseline_3DUNet_v21_3convperstage.py",
+      "sha256": "dc6fa469d63db5b305b568e34fa17cc39f09c1685cab8abc545cca14a7aa1fcf"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/experiment_planner_baseline_3DUNet_v22.py",
+      "sha256": "fdd1e7797c8bb8dd5ad003949188984302b8170253aabae62566c62db78604a1"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/experiment_planner_baseline_3DUNet_v23.py",
+      "sha256": "d1bd300626cca1ce47b54a2e89929ef29cb144903e0fc72b9b036c2f8228a73f"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/experiment_planner_residual_3DUNet_v21.py",
+      "sha256": "bea0601d5cd6fbaaae8d6c331af58eabdaa8e9e42cfd390f62efcbfe0b2868f1"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/normalization/experiment_planner_2DUNet_v21_RGB_scaleto_0_1.py",
+      "sha256": "e301c46ced5487d86017849667b23bd3d8fe09039c6d41a25e511117e39f9dfe"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/normalization/experiment_planner_3DUNet_CT2.py",
+      "sha256": "4ac9c79047e47b0a993bde25599b4d42d52abcae1b65f72adc2a4ede3119a8b6"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/normalization/experiment_planner_3DUNet_nonCT.py",
+      "sha256": "c86590a64b08c28f09decef53fb453fdcb808e7a529fcf3dc8ed38c2b5771453"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/patch_size/experiment_planner_3DUNet_isotropic_in_mm.py",
+      "sha256": "0c18cd2e28cf77865d47c30a8881191fd879594e8554620c1de786787b4d7542"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/patch_size/experiment_planner_3DUNet_isotropic_in_voxels.py",
+      "sha256": "9ed6a4c54829d459bcfbe204a6baa9463ca2138b2cd8fbc9242ec0da9f1d9bf9"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/pooling_and_convs/experiment_planner_baseline_3DUNet_allConv3x3.py",
+      "sha256": "d32171803991c6b3e7c21b8ceeb91646b4526bfd2cc62f00ccd47af5003bacd2"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/pooling_and_convs/experiment_planner_baseline_3DUNet_poolBasedOnSpacing.py",
+      "sha256": "005d16b6f698f10447d73e72957bf1cf2fd47a1044079bf6a92773fc11f3c87f"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/target_spacing/experiment_planner_baseline_3DUNet_targetSpacingForAnisoAxis.py",
+      "sha256": "4e4368fc9195bcb15483d9a694242fface0f029cfbb2e9cf131527e7fb6a779f"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/target_spacing/experiment_planner_baseline_3DUNet_v21_customTargetSpacing_2x2x2.py",
+      "sha256": "1a93c0e585a86f8835704368899d83041c5e0483e5f999a5e6d413bda6a87390"
+    },
+    {
+      "archive_path": "code/unetr_pp/experiment_planning/alternative_experiment_planning/target_spacing/experiment_planner_baseline_3DUNet_v21_noResampling.py",
+      "sha256": "cd2afc08e21ebff669cd374426cad33894284298050ec5e70a54a8d16b59466b"
+    },
+    {
+      "archive_path": "code/unetr_pp/inference/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/inference/predict.py",
+      "sha256": "6c101d31bf7db759804e3d3de2d1525242d0ad10cec2e650bc34bc3d84f84efd"
+    },
+    {
+      "archive_path": "code/unetr_pp/inference/predict_simple.py",
+      "sha256": "34b5d8230a4767213ad63dbe0795b5d304f2a29485a8a5407de0d6071ca7020a"
+    },
+    {
+      "archive_path": "code/unetr_pp/inference/segmentation_export.py",
+      "sha256": "7d5774229635f99fedc6d9086eb43dd5edc8f64586576ff96b7a9439868ca734"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/common.py",
+      "sha256": "a59f51f12b9a6ffde99ed29b9376f3e2e715a8bf0e4ca1d49cd4ff18eb0e43aa"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/common_utils.py",
+      "sha256": "78bd04dec4f0ebd3838e0a19fded755fd8019686e205fa622978516bee6e3095"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/demo.py",
+      "sha256": "f63350a724958208503cc1c5349b42067bd21a0dc9b17f89dadc25bb065b04f8"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/dynunet_block.py",
+      "sha256": "6e226c227738d055a909ad8bbe50664f7a6b556654fbd80f92f72d22a6c56311"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/generic_UNet.py",
+      "sha256": "7ec4d0acad74cc3cf3ee175ce602179cce50e9225a8423f7739b0171586805db"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/initialization.py",
+      "sha256": "4c733228b661a1ddb0e7709fd933aadf4efee6227ca42c1024a968ad38bfd570"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/layers.py",
+      "sha256": "42bf3f59bd9e654f432f1702f7e937e3639aaa5371a657c1ec56e2d15eac8a48"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/mamba.py",
+      "sha256": "903c8f90ee852474806a86bdd5db34af176ee4d38bdbcce61bc66dae01af7a2c"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/neural_network.py",
+      "sha256": "5e2325eef80a78ca000b95538530c0b21c30cd813f9acb35bbfced7c30893b19"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/acdc/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/acdc/model_components.py",
+      "sha256": "fd38acfefc0415cd416c54dc24f217ef490578af8eb6dbf94737385a6b3a256d"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/acdc/transformerblock.py",
+      "sha256": "ac457d38d3b38c4240fc216e121d12eb2f62ee572ab6485cf74c15fdbbfe43f0"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/acdc/unetr_pp_acdc.py",
+      "sha256": "755cf50f1e91116e211e2bdeda76ee18600be4c21dd2932eb9132e735b983dcf"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/lung/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/lung/model_components.py",
+      "sha256": "23d6a77842e54f1093fa2d1809554dea811810e588346d44b294ed854a6539c4"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/lung/transformerblock.py",
+      "sha256": "80f0832ee75c9d4ca3f2ba9dbc451a32aed2053f0630a26f51dfab0c9ac22733"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/lung/unetr_pp_lung.py",
+      "sha256": "5f7530ca4168127dff22c52497cb7c3de7458ed4c20840c8d44d1acd1a3951f7"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/synapse/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/synapse/model_components.py",
+      "sha256": "c9610a8227251e141fad8b9026ad1b19770066248f2658903f5dbad0720b98b4"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/synapse/transformerblock.py",
+      "sha256": "814a4ef0bb342799db1ef840937badf0f4f3dfbf701fb46c0a6faab731b64d21"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/synapse/unetr_pp_synapse.py",
+      "sha256": "bbf6f745b485f6349b4c076a0e021f989daf5bc40f289cdf9add8e78a96f77ef"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/tumor/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/tumor/model_components.py",
+      "sha256": "b23e50bfaddace75b2f8fe1ea7fe54b27f364b940ae51161a930a5760c03786c"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/tumor/transformerblock.py",
+      "sha256": "55c3a665970405b7efe5f59a65805b5f8b7bb7ad834f00190dbe786dc430f3ae"
+    },
+    {
+      "archive_path": "code/unetr_pp/network_architecture/tumor/unetr_pp_tumor.py",
+      "sha256": "96fdbdc9c15b9924cdc0aad1011594a209c48181076da5183432f0536ad99b9c"
+    },
+    {
+      "archive_path": "code/unetr_pp/postprocessing/connected_components.py",
+      "sha256": "7e6870cf86e17774d4aa48a6f9c06e2a9f25f60cfaac5c4aed6998fb997e3f88"
+    },
+    {
+      "archive_path": "code/unetr_pp/postprocessing/consolidate_all_for_paper.py",
+      "sha256": "f627a700ca5b064b1214e6f217a30806bd11a1bb8a2d2321599152105e2cc116"
+    },
+    {
+      "archive_path": "code/unetr_pp/postprocessing/consolidate_postprocessing.py",
+      "sha256": "fe16896d536dda5177245a03aae191816fb7f65dffdf37af3b8c49b029e45cc4"
+    },
+    {
+      "archive_path": "code/unetr_pp/postprocessing/consolidate_postprocessing_simple.py",
+      "sha256": "4960ce1c9c96e92fbc8c73d75c50f8c25b75c210bf779733bf29149fb30198bc"
+    },
+    {
+      "archive_path": "code/unetr_pp/preprocessing/cropping.py",
+      "sha256": "a2e0556e0067ec949f1d4336f9904adfe9368f11eac89abe95e927eed317e962"
+    },
+    {
+      "archive_path": "code/unetr_pp/preprocessing/preprocessing.py",
+      "sha256": "b87ea79603785c616604846653c2155e2b3221024b52e678f9a48c32a960b537"
+    },
+    {
+      "archive_path": "code/unetr_pp/preprocessing/sanity_checks.py",
+      "sha256": "aec1a82ae67ff5d21c61450d1bd06e39c541a2c9f23d76ba06d96030a230457a"
+    },
+    {
+      "archive_path": "code/unetr_pp/preprocessing/custom_preprocessors/preprocessor_scale_RGB_to_0_1.py",
+      "sha256": "01781e5975e54b90a354232a822f3182fce43afcc66820bfd6e1a33d4f6f4523"
+    },
+    {
+      "archive_path": "code/unetr_pp/run/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/run/default_configuration.py",
+      "sha256": "55152852a2fc3272fbe3bd7dd4554b78232d4b5e2cbd52721a5faf277a46300a"
+    },
+    {
+      "archive_path": "code/unetr_pp/run/run_training.py",
+      "sha256": "40184241bb3fe078faa3d2aacce4084397ad1857595202f3e2d5dc9f512248e7"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/model_restore.py",
+      "sha256": "7ce3c58537ca0639cdf7890f39f2905a60c2b8ef8c6d713b50e98e0e3a9c197d"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/cascade_stuff/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/cascade_stuff/predict_next_stage.py",
+      "sha256": "b992637d08f62a623500ab115ed50a662159da5a62d5e73a7b60c97b2377250e"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/data_augmentation/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/data_augmentation/custom_transforms.py",
+      "sha256": "d9ed1f916c8da8f4041efd377e63a02f2b05cf14001532fa726eddcb1305f7c8"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/data_augmentation/data_augmentation_insaneDA.py",
+      "sha256": "3dce4b38a93da35eaad516b626c767b646a5b7142ac6afe7946f45ee24d22799"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/data_augmentation/data_augmentation_insaneDA2.py",
+      "sha256": "91b7c5bbf77bb625b570c160a27fd36e4f43061c02906ff2eda2c9cd86524832"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/data_augmentation/data_augmentation_moreDA.py",
+      "sha256": "ae9db309a8ed59237788457d00277546fa77d56813f90c10ee8350f9f8508d55"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/data_augmentation/data_augmentation_noDA.py",
+      "sha256": "0ec37a1e9e42a60bf5f2b5a34efa918f63696beec35cc13ddad7e44125125549"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/data_augmentation/default_data_augmentation.py",
+      "sha256": "f6bce416bf078c6b95f43800f9860c863134f5d32c1ba85aacbbc850081b10e5"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/data_augmentation/downsampling.py",
+      "sha256": "6a5e7f064073381df3cc4ed36d9fa0e00ff5049e55ecf60356c15734b62ada01"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/data_augmentation/pyramid_augmentations.py",
+      "sha256": "fe2efca32c340f98450a22377db2ae4856f8b81e2b1bcbc21d407af848507cde"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/dataloading/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/dataloading/dataset_loading.py",
+      "sha256": "e95b824bd23594de3a5d3ce47fb5f63fbc6cf1cd284c1c70cc24eab8e2a2ee89"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/learning_rate/poly_lr.py",
+      "sha256": "54382e1c4f97da138049384469d7d5600fdd84a4db5369d3a3832ee24602ae55"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/loss_functions/TopK_loss.py",
+      "sha256": "c637fe7fd993da4b89ccb595f05457353270177d5316c5310c357cd58550ae2f"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/loss_functions/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/loss_functions/crossentropy.py",
+      "sha256": "919b5adf6916469695d6732868b733a0e19fcd1eb2b64d7531b9a078219c7220"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/loss_functions/deep_supervision.py",
+      "sha256": "f52479ca00d5e2196daff2f0017de31bb4a0132adf065b72fd3ee68fc61bb2b0"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/loss_functions/dice_loss.py",
+      "sha256": "31c7d7e4e4bc83db3e51e7432a3fc3f2d9a1fd0a3d165aa70b03c423a08ab1b2"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/Trainer_acdc.py",
+      "sha256": "a4bc0e4ef363b12330e53ccb233f98feabde9d04e0ec2dbed1d9b2240c11678d"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/Trainer_lung.py",
+      "sha256": "1afac58e5bb3995bad6d650655946749db157492b832d99be228bf3874d56bfc"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/Trainer_synapse.py",
+      "sha256": "3ef4e80b8943568a98588caa796428c16c5395cb5f08e2d25268a5b37c715f20"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/Trainer_tumor.py",
+      "sha256": "eabbf36e43a1c227c90c43417f36304f6f7edccf87c25436255b7079bebca3c7"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/network_trainer_acdc.py",
+      "sha256": "b5e92678cb60b638451b93f7f4c722584b881293b20b6e4d867951e7976846c1"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/network_trainer_lung.py",
+      "sha256": "6c90fc9291f2f7c0b8c629c5402fbd402259d7866b6e73eb0ce4dd1c82e3c0fc"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/network_trainer_synapse.py",
+      "sha256": "3eb7d10d50626b8ff5b8c6351b27495375fa8ddf27880b84a23612fa60c27549"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/network_trainer_tumor.py",
+      "sha256": "85d9c694ce28a1fd5441ec85f056921cb5167522648b747b51c1425d354f436f"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/unetr_pp_trainer_acdc.py",
+      "sha256": "7d4c2da7dd401b506686ebdd3973ddac70e8a9be1156cfd6ef858524efba0271"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/unetr_pp_trainer_lung.py",
+      "sha256": "0310a0e20e62a086863695e0f47d087e3033afb6cc9162c2cf075d1031aaeac2"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/unetr_pp_trainer_synapse.py",
+      "sha256": "467257aad88287ee3f2f2d90ed995294b42e8d50958cec9a9a7058f972d85250"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/network_training/unetr_pp_trainer_tumor.py",
+      "sha256": "e48dd1fd90198fa670f55aed55af24f2b22554283d90cca078cdc7c4fbdebb96"
+    },
+    {
+      "archive_path": "code/unetr_pp/training/optimizer/ranger.py",
+      "sha256": "a412415b2cad158dcf9f433cd29143cfa8b6b67692f6bc799a850b8319fd72b6"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/__init__.py",
+      "sha256": "465c88ac5d2b4a95f1aa57eca0e7f26bd2521e389b5c8926a886e8dc31ab12e0"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/distributed.py",
+      "sha256": "0a646ba2800d247d755d2ae97ae8e556cefb69efcfdf1a5e34c1b550a11f8287"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/file_conversions.py",
+      "sha256": "489efcc7703a5a0bea5fc4a8dcd53fbf0e7aeaff4f7db2158bdae7e057d242d3"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/file_endings.py",
+      "sha256": "ca1d9ab55e171c2841d2473ca37252cd1d38d7da8469593f3eb3554a12dad57e"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/folder_names.py",
+      "sha256": "0be17b620a2d55ef333d7b16d844a27872e9c4634a9ccb23d099bf3cf24a91c6"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/nd_softmax.py",
+      "sha256": "283acb2958e03aafe8419ce405b6f3e3ebfec3246a66258317dd586042f87b26"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/one_hot_encoding.py",
+      "sha256": "bf734bca011d1e36c75998b0e16fa225b765f10a8417c5c7647378d941556a62"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/overlay_plots.py",
+      "sha256": "f37002ca8b5b02173035b4e8b6116f1d97d574d334dc8bdf979c8f65c28eb5e3"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/random_stuff.py",
+      "sha256": "0297f6723582b3336f9721537cf23ee83f39f4bdedda89046ca5da3e2279637e"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/recursive_delete_npz.py",
+      "sha256": "bc8cae1728f654acffc59333046be9d3fad30f6e8ccb9a80135e77802ecdd6c9"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/recursive_rename_taskXX_to_taskXXX.py",
+      "sha256": "ac379e4fa65d4b0e879d4ebd8d8a32e82f8fa7325fb1109723c1cf02fc930723"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/sitk_stuff.py",
+      "sha256": "232e332395494d636e20d0b3952913749db6cece45ff33b623db9d73fe78ab24"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/task_name_id_conversion.py",
+      "sha256": "fcccd1dee79b84cd00dce845271aa4a2563220c98888d5043fec6bab01131260"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/tensor_utilities.py",
+      "sha256": "76f69d43f92670535bddc9540cb8283d29629430de3bd92e004be6a2384a5518"
+    },
+    {
+      "archive_path": "code/unetr_pp/utilities/to_torch.py",
+      "sha256": "f39ceb0acc143e7ac821d6c54628f2a6ef3f83094aefbe03629fe9fa45ffe31a"
+    },
+    {
+      "archive_path": "code/requirements.txt",
+      "sha256": "379a567451d1bad624c1b991b11e9d718d3eb53112477162e23e009d11ce605c"
+    },
+    {
+      "archive_path": "code/README.md",
+      "sha256": "68a688471fa5bbc15482103c33296345917429e91ba4449a9b06048dc9e00748"
+    },
+    {
+      "archive_path": "code/LICENSE",
+      "sha256": "b6ec69dae07a971684b64b36ac55bd920fc1fa4bd4d2f5aee6c11a142a4c208c"
+    },
+    {
+      "archive_path": "reference_launchers/tumor_wo_ffn_seed42_v3/ffn_identity.py",
+      "sha256": "0523b8d574e6ab42c036c1a574cff694c4dfaaf3337ce58f397629f0305a4dc4"
+    },
+    {
+      "archive_path": "reference_launchers/tumor_wo_ffn_seed42_v3/run_tumor_wo_ffn_seed42.py",
+      "sha256": "0680c849c7346a41cc7ad9c96dc7d41bf678083d7b9ef1ab5d2ecb651ad7f429"
+    },
+    {
+      "archive_path": "reference_launchers/tumor_wo_ffn_seed42_v3/test_ffn_identity_cpu.py",
+      "sha256": "829b4a91fa4b4a7aba11278ab0c64d2102fec9f1c10876bd8e44923988179498"
+    },
+    {
+      "archive_path": "reference_launchers/tumor_wo_ffn_seed42_v3/test_launch_guards_local.py",
+      "sha256": "84faaef8798ae6bc5a8d83e562e1dbef5cf2b4878507f911907fd70bf601bc77"
+    },
+    {
+      "archive_path": "reference_launchers/tumor_wo_ffn_seed42_v3/unetr_pp_trainer_tumor_wo_ffn.py",
+      "sha256": "c11190bac9a891c3bec6d64790f23ecba42337d1731d4687742db7307bf762ad"
+    },
+    {
+      "archive_path": "reference_launchers/tumor_wo_ffn_seed42_npz_v1/ffn_identity.py",
+      "sha256": "0523b8d574e6ab42c036c1a574cff694c4dfaaf3337ce58f397629f0305a4dc4"
+    },
+    {
+      "archive_path": "reference_launchers/tumor_wo_ffn_seed42_npz_v1/run_tumor_wo_ffn_seed42_npz.py",
+      "sha256": "1e9a63ece1fe6b4dc134599540d7aec8c42ac760162d3e7173f0a11908505c43"
+    },
+    {
+      "archive_path": "reference_launchers/tumor_wo_ffn_seed42_npz_v1/test_tumor_wo_ffn_seed42_npz_cpu.py",
+      "sha256": "669b18b75cdd5dab234bd71587d55755fbcec156bad8fad374b27b9ff662739e"
+    }
+  ],
+  "weights": {
+    "Full_seed42": {
+      "source": "output_tumor_387_97/fold0/seed_42/unetr_pp/3d_fullres/Task003_tumor/unetr_pp_trainer_tumor__unetr_pp_Plansv2.1/fold_0/model_best.model",
+      "source_sha256": "3156db5012462a32a53189c6e46e4fc006d5a9da358f3382be4d6b62676739b4",
+      "tensor_count": 806,
+      "exported_weights_sha256": "fa2cc0b4f7a6bd4289896dca910de0c1584ccf3dad0a2bcd918898b43af34c18",
+      "archive_sha256": "759b00cc17d0a8e85454da98516cc0f570559f38ea99e1bd69b7a92df6d0b1df",
+      "archive_bytes": 171112189,
+      "parts": [
+        {
+          "name": "Full_seed42_inference_only.tar.gz.part001",
+          "bytes": 67108864,
+          "sha256": "f5f174b47502feb2d514992290387f9a4de0e74df536d83127b6cf1c0df55255"
+        },
+        {
+          "name": "Full_seed42_inference_only.tar.gz.part002",
+          "bytes": 67108864,
+          "sha256": "d453830e6e283e2d476eb3db102ef2deb2b7a321ac7c1653db96c570eef1fbcc"
+        },
+        {
+          "name": "Full_seed42_inference_only.tar.gz.part003",
+          "bytes": 36894461,
+          "sha256": "4372124b2fe6064c0e1b262e73ee85e5d15b100408f6750fb95b6b01b2f01589"
+        }
+      ],
+      "metadata_sha256": {
+        "model_best.model.pkl": "48a180b787a3355eaa672b59caffbbaa9a8219018c6ab4ca9805e5487cbc4f53",
+        "plans.pkl": "f46a221988b384f0653bae3604da5248e5d0d9957da9f0faa7413084682dafed"
+      }
+    },
+    "wo_FFN_seed42": {
+      "source": "output_tumor_ablation_387_97/w_o_ffn/fold0/seed_42/unetr_pp/3d_fullres/Task003_tumor/unetr_pp_trainer_tumor__unetr_pp_Plansv2.1/fold_0/model_best.model",
+      "source_sha256": "0e243292439eddede60ac43cd7e921e29e5c9e1a422db8460b7c558252c71c38",
+      "tensor_count": 714,
+      "exported_weights_sha256": "232d47e3195d125e872910897483ec89c354153014fc6ad324a6a335965d5591",
+      "archive_sha256": "e83deb4390f2b2842b15907f4a60945a1d7ac7bf6d1e72cbc3eba165c788bea3",
+      "archive_bytes": 164579078,
+      "parts": [
+        {
+          "name": "wo_FFN_seed42_inference_only.tar.gz.part001",
+          "bytes": 67108864,
+          "sha256": "6c5b72b481f441e91c1de0499d505cb874b1249cd5890bb2cd45198671c59de0"
+        },
+        {
+          "name": "wo_FFN_seed42_inference_only.tar.gz.part002",
+          "bytes": 67108864,
+          "sha256": "13e2576bc9533797d08e6b85285f852fc6f42d9b9e1ecd949290203efdc7353f"
+        },
+        {
+          "name": "wo_FFN_seed42_inference_only.tar.gz.part003",
+          "bytes": 30361350,
+          "sha256": "fd82cdfa9282e18f8bf9ea650f4f733b9a0a5ebecd283c5f1b27774e49763db9"
+        }
+      ],
+      "metadata_sha256": {
+        "model_best.model.pkl": "717dcd359703b483def04eb65bbd40016e80f5bbbb40e94199073f361746e46c",
+        "plans.pkl": "f46a221988b384f0653bae3604da5248e5d0d9957da9f0faa7413084682dafed"
+      }
+    }
+  },
+  "code_archive": {
+    "name": "tumor_current_code.tar.gz",
+    "sha256": "50dae28033e744441ad6101dca55238c2fe8904434284ea2722be55c84b92f93"
+  }
+}
